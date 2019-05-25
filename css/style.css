@@ -83,7 +83,7 @@ p{
    padding: auto;
 }
 #showcase{
-   background:url(../images/pic2.jpeg) no-repeat
+   background:url(../images/images/pic2.jpeg) no-repeat
    center center/cover;
    height: 600px;
 }
@@ -139,7 +139,7 @@ p{
 #home-info .info-img {
    float: left;
    width: 50%;
-   background: url(../images/pic6.jpeg) no-repeat;
+   background: url(../images/images/pic6.jpeg) no-repeat;
    min-height: 100%;
    width: 750px;
    height: 600px;
