@@ -8,7 +8,7 @@
     <title>Sky Tech /About</title>
     <style>
    
-nav{
+#navbar {
     width: 100%;
     background: black;
     overflow:auto;
@@ -16,11 +16,11 @@ nav{
     padding-right: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-nav h1{
+#navbar h1{
     float: left;
     color: brown;
 }
-nav ul{
+#navbar ul{
     float:right;
     list-style: none;
 }
@@ -29,13 +29,16 @@ nav ul{
    center center/cover;
    height: 600px;
 }
-nav ul li{
+#navbar ul li{
     float: left;
 }
-nav ul li a{
+#navbar ul li a{
     display: block;
     text-align: center;
     cursor: pointer;
+}
+#navbar ul li .current {
+    color: rgb(255, 0, 128);
 }
 ul{
     padding: 10px;
@@ -45,7 +48,7 @@ ul{
 li{
     float: left;
 }
-nav a{
+#navbar a{
      width: 100px;
      display: block;
      text-decoration: none;
@@ -55,10 +58,11 @@ nav a{
     text-align: center;
     font-size: 15px;
 } 
-#nav a:hover {
+#navbar ul li a:hover {
     background: gray;
     text-transform: uppercase;
-    transition: 0.5s;}
+    transition: 0.5s;
+}
  #footer {
     background: steelblue;
     color: black;
@@ -176,7 +180,7 @@ nav a{
             <div class="container">
                 <h1 class="logo"><a href="index.html">Sky Tech</a></h1>
                 <ul>
-                    <li><a class="current" href="index.html">Home</a><li>
+                    <li><a href="index.html">Home</a><li>
                     <li><a class="current" href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="services.html">Services</a></li>

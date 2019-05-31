@@ -49,6 +49,12 @@ p{
    text-align: center;
 
 }
+#navbar input {
+padding: auto;
+margin-top: 20px;
+margin-left: 10px;
+
+}
 #navbar h1 {
    float: left;
    padding-top: 20px;
@@ -72,10 +78,12 @@ p{
 #navbar ul li a.current {
    color: blue;
    text-transform: uppercase;
-   background: #333;
    cursor: pointer;
 }
-
+input{
+   font-size: 15px;
+   padding:10px;
+} 
 .container {
    margin: auto;
    max-width: 1000px;
